@@ -56,7 +56,7 @@ struct ContentView: View {
             blue: blue/255
           )
         }
-        .modifier(.primaryButton)
+        .primaryBackground()
       }
       .padding()
     }

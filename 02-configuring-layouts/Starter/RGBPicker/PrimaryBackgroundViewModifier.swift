@@ -32,7 +32,7 @@
 
 import SwiftUI
 
-struct PrimaryButtonViewModifier: ViewModifier {
+struct PrimaryBackgroundViewModifier: ViewModifier {
   func body(content: Content) -> some View {
     content
       .foregroundStyle(.white)
@@ -41,8 +41,8 @@ struct PrimaryButtonViewModifier: ViewModifier {
   }
 }
 
-extension ViewModifier where Self == PrimaryButtonViewModifier {
-  static var primaryButton: Self {
-    Self()
+extension View {
+  func primaryBackground() -> some View {
+    modifier(PrimaryBackgroundViewModifier())
   }
 }

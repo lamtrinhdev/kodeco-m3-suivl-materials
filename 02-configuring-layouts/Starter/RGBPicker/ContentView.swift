@@ -50,12 +50,12 @@ struct ContentView: View {
 
       Button("Set Color") {
         color = Color(
-          red: red/255,
-          green: green/255,
-          blue: blue/255
+          red: red / 255,
+          green: green / 255,
+          blue: blue / 255
         )
       }
-      .modifier(.primaryButton)
+      .primaryBackground()
     }
     .padding()
   }

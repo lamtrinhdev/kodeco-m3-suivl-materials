@@ -15,7 +15,7 @@
 		84814F8D2B65815A00F4CDD8 /* RGBSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84814F8C2B65815A00F4CDD8 /* RGBSliderView.swift */; };
 		84814F8F2B65827800F4CDD8 /* RGBSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84814F8E2B65827800F4CDD8 /* RGBSlider.swift */; };
 		84814F912B6583AC00F4CDD8 /* ColorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84814F902B6583AC00F4CDD8 /* ColorCardView.swift */; };
-		84814F932B65840500F4CDD8 /* PrimaryButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84814F922B65840500F4CDD8 /* PrimaryButtonViewModifier.swift */; };
+		84814F932B65840500F4CDD8 /* PrimaryBackgroundViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84814F922B65840500F4CDD8 /* PrimaryBackgroundViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		84814F8C2B65815A00F4CDD8 /* RGBSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBSliderView.swift; sourceTree = "<group>"; };
 		84814F8E2B65827800F4CDD8 /* RGBSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBSlider.swift; sourceTree = "<group>"; };
 		84814F902B6583AC00F4CDD8 /* ColorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCardView.swift; sourceTree = "<group>"; };
-		84814F922B65840500F4CDD8 /* PrimaryButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonViewModifier.swift; sourceTree = "<group>"; };
+		84814F922B65840500F4CDD8 /* PrimaryBackgroundViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryBackgroundViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 				1839F4AF25190F2A00BB00F1 /* AppMain.swift */,
 				18D775C422AD944300AE281E /* ContentView.swift */,
 				84814F902B6583AC00F4CDD8 /* ColorCardView.swift */,
-				84814F922B65840500F4CDD8 /* PrimaryButtonViewModifier.swift */,
+				84814F922B65840500F4CDD8 /* PrimaryBackgroundViewModifier.swift */,
 				18D775C622AD944400AE281E /* Assets.xcassets */,
 				18D775DA22AD963800AE281E /* LaunchScreen.storyboard */,
 				18D775CE22AD944400AE281E /* Info.plist */,
@@ -184,7 +184,7 @@
 				84814F8F2B65827800F4CDD8 /* RGBSlider.swift in Sources */,
 				18D775C522AD944300AE281E /* ContentView.swift in Sources */,
 				84814F912B6583AC00F4CDD8 /* ColorCardView.swift in Sources */,
-				84814F932B65840500F4CDD8 /* PrimaryButtonViewModifier.swift in Sources */,
+				84814F932B65840500F4CDD8 /* PrimaryBackgroundViewModifier.swift in Sources */,
 				1839F4B025190F2A00BB00F1 /* AppMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
